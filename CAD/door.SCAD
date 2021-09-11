@@ -32,6 +32,24 @@ translate([152,102,0]) rotate([0,-45,0]) color("Silver")  cube([al_sideL,al_side
     //Rear L triangle
 translate([-50,102,al_sideL]) rotate([0,90,0]) color("Silver")  cube([al_sideL,al_sideL,50]);
 translate([-50,102,0]) rotate([0,45,0]) color("Silver")  cube([al_sideL,al_sideL,70.7]);
+    //Front UP
+translate([2,0,200]) color("Silver")
+    rotate([0,90,0]) cube([al_sideL,al_sideL,space_sideL]) ;
+    //Back UP
+translate([2,102,200]) color("Silver")
+    rotate([0,90,0]) cube([al_sideL,al_sideL,space_sideL]) ;
+    //Laft down
+translate([0,al_sideL,2]) color("Silver")
+    rotate([-90,0,0]) cube([al_sideL,al_sideL,space_sideL]);
+    //Right down
+translate([102,al_sideL,2]) color("Silver")
+    rotate([-90,0,0]) cube([al_sideL,al_sideL,space_sideL]);
+    //Laft UP
+translate([0,al_sideL,200]) color("Silver")
+    rotate([-90,0,0]) cube([al_sideL,al_sideL,space_sideL]);
+    //Right UP
+translate([102,al_sideL,200]) color("Silver")
+    rotate([-90,0,0]) cube([al_sideL,al_sideL,space_sideL]);
 
 //Scanner
 translate([al_sideL + side_rollerR,0,scanner_upper]) //Front scan

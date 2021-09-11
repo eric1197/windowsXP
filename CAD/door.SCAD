@@ -30,6 +30,7 @@ translate([al_sideL+space_sideL,-50,al_sideL])
     rotate([-45,0,0])
     color("Silver")
     cube([al_sideL,al_sideL,70.7]); //70.7
+//其他三角形還沒寫!!
 
     //Front UP
 translate([2,0,200]) color("Silver")
@@ -59,4 +60,3 @@ translate([0,al_sideL + side_rollerR,scanner_lowper]) //L scan
     rotate([-90,0,0]) cube([al_sideL,al_sideL,space_sideL-2*side_rollerR]);
 translate([102,al_sideL + side_rollerR,scanner_lowper]) //R scan
     rotate([-90,0,0]) cube([al_sideL,al_sideL,space_sideL-2*side_rollerR]);
-//ouo

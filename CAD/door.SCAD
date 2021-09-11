@@ -59,3 +59,4 @@ translate([0,al_sideL + side_rollerR,scanner_lowper]) //L scan
     rotate([-90,0,0]) cube([al_sideL,al_sideL,space_sideL-2*side_rollerR]);
 translate([102,al_sideL + side_rollerR,scanner_lowper]) //R scan
     rotate([-90,0,0]) cube([al_sideL,al_sideL,space_sideL-2*side_rollerR]);
+//ouo

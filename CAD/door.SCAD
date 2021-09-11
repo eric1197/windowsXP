@@ -32,7 +32,6 @@ translate([152,102,0]) rotate([0,-45,0]) color("Silver")  cube([al_sideL,al_side
     //Rear L triangle
 translate([-50,102,al_sideL]) rotate([0,90,0]) color("Silver")  cube([al_sideL,al_sideL,50]);
 translate([-50,102,0]) rotate([0,45,0]) color("Silver")  cube([al_sideL,al_sideL,70.7]);
-    
     //Front UP
 translate([2,0,200]) color("Silver")
     rotate([0,90,0]) cube([al_sideL,al_sideL,space_sideL]) ;

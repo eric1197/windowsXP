@@ -20,18 +20,17 @@ al(0,0,0,200);//Front L
 al(l,0,0,200);//Front R
 al(l,l,0,200);//Rear R
 al(0,l,0,200);//Rear L
-    //Front L triangle
-translate([-50,0,al_sideL]) rotate([0,90,0]) color("Silver")  cube([al_sideL,al_sideL,50]);
-translate([-50,0,0]) rotate([0,45,0]) color("Silver")  cube([al_sideL,al_sideL,70.7]);
+
     //Front R triangle
-translate([154,0,0]) rotate([0,-90,0]) color("Silver")  cube([al_sideL,al_sideL,50]);
-translate([152,0,0]) rotate([0,-45,0]) color("Silver")  cube([al_sideL,al_sideL,70.7]);
-    //Rear R triangle
-translate([154,102,0]) rotate([0,-90,0]) color("Silver")  cube([al_sideL,al_sideL,50]);
-translate([152,102,0]) rotate([0,-45,0]) color("Silver")  cube([al_sideL,al_sideL,70.7]);
-    //Rear L triangle
-translate([-50,102,al_sideL]) rotate([0,90,0]) color("Silver")  cube([al_sideL,al_sideL,50]);
-translate([-50,102,0]) rotate([0,45,0]) color("Silver")  cube([al_sideL,al_sideL,70.7]);
+translate([al_sideL+space_sideL,0,0])
+    color("Silver")
+    rotate([90,0,0])
+    cube([al_sideL,al_sideL,50]);//50
+translate([al_sideL+space_sideL,-50,al_sideL])
+    rotate([-45,0,0])
+    color("Silver")
+    cube([al_sideL,al_sideL,70.7]); //70.7
+
     //Front UP
 translate([2,0,200]) color("Silver")
     rotate([0,90,0]) cube([al_sideL,al_sideL,space_sideL]) ;
